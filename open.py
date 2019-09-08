@@ -5,7 +5,7 @@ from datetime import datetime
 from time import sleep
 import time, random, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast, timeit, _thread
 #==============================================================================#
-cl = LINE("EI7JNA1MIVwCBeFZ97m0.Ob2GPnN6j+ezwqs92itGCa.TKi7gw48s+HjIv95wS2FhYEsdSHps0ebOVUfSS5e4Ac=")
+cl = LINE("EIv2BgridhGGNRGZkJDc.JmCb723AU5EsCI6jSee9da.eyVHhDnoXBV9BzvzZjBtGZyALWGpicvPBLpb3094uQY=")
 print("Auth Token : " + str(cl.authToken))
 clMID = cl.profile.mid
 botStart = time.time()
